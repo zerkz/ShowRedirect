@@ -15,7 +15,7 @@ showredirect <url>
 
 ex.
 showredirect amzon.com
-http://www.amazon.com
+output: http://www.amazon.com
 
 advanced:
 showredirect -m <method> -body <body> url
