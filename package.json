@@ -1,0 +1,30 @@
+{
+  "name": "ShowRedirect",
+  "version": "0.0.0",
+  "description": "Simple node script that sends a request, and reports the redirect without consuming it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "showredirect amzon.com"
+  },
+  "bin": {
+    "showredirect": "./bin/showredirect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerkz/ShowRedirect.git"
+  },
+  "keywords": [
+    "show",
+    "redirect"
+  ],
+  "author": "Zackary Whipkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerkz/ShowRedirect/issues"
+  },
+  "homepage": "https://github.com/zerkz/ShowRedirect",
+  "dependencies": {
+    "minimist": "~1.1.0",
+    "request": "~2.49.0"
+  }
+}
