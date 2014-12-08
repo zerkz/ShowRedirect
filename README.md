@@ -11,10 +11,10 @@ npm install -g showredirect
 Usage
 ===========
 basic:
-showredirect <url>
+showredirect url
 
 showredirect amzon.com
 >output: http://www.amazon.com
 
 advanced:
-showredirect -m <method> -body <body> url
+showredirect -m POST -body woop=wap www.google.com
