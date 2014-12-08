@@ -17,4 +17,4 @@ showredirect amzon.com
 >output: http://www.amazon.com
 
 advanced:
-showredirect -m POST -body woop=wap www.google.com
+showredirect -m POST -body woop=wap www.amzon.com
