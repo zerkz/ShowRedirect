@@ -13,7 +13,6 @@ Usage
 basic:
 showredirect <url>
 
-ex.
 showredirect amzon.com
 >output: http://www.amazon.com
 
