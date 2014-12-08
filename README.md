@@ -13,8 +13,10 @@ Usage
 basic:
 showredirect url
 
+Defaults to post.
+
 showredirect amzon.com
 >output: http://www.amazon.com
 
 advanced:
-showredirect -m POST -body woop=wap www.amzon.com
+showredirect -m PATCH -body woop=wap www.amzon.com
